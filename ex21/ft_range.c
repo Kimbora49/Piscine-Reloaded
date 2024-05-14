@@ -1,46 +1,54 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/14 15:44:45 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 17:25:51 by tmazan           ###   ########.fr       */
+/*   Created: 2024/05/14 17:31:02 by tmazan            #+#    #+#             */
+/*   Updated: 2024/05/14 17:41:45 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<stdlib.h>
-#include<stdio.h>
 
-int ft_strlen(char *str)
+int *ft_range(int min, int max)
 {
+    int *array;
     int i;
+    int j;
 
-    i = 0;
-    while(str[i])
-        i++;
-    return (i);
-}
-
-char *ft_strdup(char *src)
-{
-    char    *dest;
-    int     i;
-    dest = (char *)malloc(ft_strlen(src + 1) * sizeof(char));
-    if (dest == NULL)
-        return ("error");
-    i = 0;
-    while (src[i])
+    array = (int *)malloc((max - min) * sizeof(int));
+    if(array == NULL)
+        return (0);
+    i = min;
+    j = 0;
+    while (i < max)
     {
-        dest[i] = src[i];
+        array[j] = i;
         i++;
+        j++;
     }
-    dest[i] = '\0';
-    return(dest);
+    return (array);
 }
+
+#include <stdio.h>
 
 int main(void)
 {
-    printf("%s\n", ft_strdup("Salut a tous !"));
+	int	min;
+	int	max;
+	int	*tab;
+	int	i = 0;
+	int	size;
+
+	min = -10;
+	max = 250;
+	size = max - min;
+	tab = ft_range(min, max);
+	while(i < size)
+	{
+		printf("%d, ", tab[i]);
+		i++;
+	}
 }
