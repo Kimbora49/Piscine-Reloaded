@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 14:17:55 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/15 14:58:32 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 14:26:04 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 typedef struct
 {
-    int x;
-    int y;
-}   t_point;
+	int	x;
+	int	y;
+}		t_point;
 
 #endif

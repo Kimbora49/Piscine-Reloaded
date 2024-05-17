@@ -6,19 +6,19 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 12:05:44 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 12:05:47 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 11:01:11 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include<stdio.h>
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int c;
+	int	c;
 
-    c = *a;
-    *a = *b;
-    *b = c;
+	c = *a;
+	*a = *b;
+	*b = c;
 }
 
 // int main(void)

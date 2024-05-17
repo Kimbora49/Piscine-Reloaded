@@ -6,15 +6,15 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 12:05:52 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 12:05:53 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 11:01:06 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include<stdio.h>
 
-void ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }
 
 // int main(void)

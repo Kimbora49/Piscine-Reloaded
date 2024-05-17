@@ -6,30 +6,30 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 17:31:02 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/15 10:54:07 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 12:28:24 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
+#include <stdlib.h>
 
-int *ft_range(int min, int max)
+int	*ft_range(int min, int max)
 {
-    int *array;
-    int i;
-    int j;
+	int	*array;
+	int	i;
+	int	j;
 
-    array = (int *)malloc((max - min) * sizeof(int));
-    if(array == NULL)
-        return (0);
-    i = min;
-    j = 0;
-    while (i < max)
-    {
-        array[j] = i;
-        i++;
-        j++;
-    }
-    return (array);
+	array = (int *)malloc((max - min) * sizeof(int));
+	if (array == NULL || min >= max)
+		return (0);
+	i = min;
+	j = 0;
+	while (i < max)
+	{
+		array[j] = i;
+		i++;
+		j++;
+	}
+	return (array);
 }
 
 // #include <stdio.h>

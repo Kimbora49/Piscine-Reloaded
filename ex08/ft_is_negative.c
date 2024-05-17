@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 12:05:59 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 12:06:00 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 11:01:00 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,12 @@
 //     write(1, &c, 1);
 // }
 
-void    ft_is_negative(int nb)
+void	ft_is_negative(int nb)
 {
-    if (nb < 0)
-        ft_putchar('N');
-    else
-        ft_putchar('P');
+	if (nb < 0)
+		ft_putchar('N');
+	else
+		ft_putchar('P');
 }
 
 // int main(void)

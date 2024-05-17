@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 12:06:06 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 12:06:07 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 14:47:32 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,14 @@
 //     write(1, &c, 1);
 // }
 
-void    ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-    int i;
+	int	i;
 
-    i = 47;
-    while (i++ < 57)
-        ft_putchar(i);
-    return ;
+	i = 47;
+	while (i++ < 57)
+		ft_putchar(i);
+	return ;
 }
 
 // int main(void)

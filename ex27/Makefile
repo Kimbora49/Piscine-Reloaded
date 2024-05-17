@@ -6,27 +6,16 @@
 #    By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/15 18:23:32 by tmazan            #+#    #+#              #
-#    Updated: 2024/05/17 14:26:08 by tmazan           ###   ########.fr        #
+#    Updated: 2024/05/17 10:56:43 by tmazan           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
-
-SRCS = ft_putchar.c ft_putstr.c ft_strcmp.c ft_strlen.c ft_swap.c 
-
-OBJS = ${SRCS:.c=.o}
-
-RM		= rm -f
-
-$(NAME): ${OBJS}
-		ar rcs ${NAME} ${OBJS}
-
-all:	${NAME}
+all:
+		gcc -Wall -Wextra -Werror -c ft_display_file.c -o ft_display_file.o
+		gcc -Wall -Wextra -Werror ft_display_file.o -o ft_display_file
 
 clean:
-		${RM} ${OBJS}
+		rm -f ft_display_file.o
 
-fclean:	clean
-		${RM} ${NAME}
-
-re:		fclean all
+fclean: clean
+		rm -f ft_display_file

@@ -6,13 +6,13 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 10:56:46 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/15 14:17:26 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 14:24:47 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ABS_H
 #define ABS_H
 
-#define ABS(Value)  Value > 0 ? Value : -Value
+#define ABS(Value) Value > 0 ? Value : -Value
 
 #endif

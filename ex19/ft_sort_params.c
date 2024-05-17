@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 15:11:30 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 15:38:26 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 14:46:28 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void	ft_sort_strings(int argc, char **argv)
 
 int	main(int argc, char **argv)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	ft_sort_strings(argc - 1, argv + 1);
@@ -76,4 +76,5 @@ int	main(int argc, char **argv)
 		ft_putchar('\n');
 		i++;
 	}
+	return (0);
 }

@@ -6,20 +6,20 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 13:21:48 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/14 13:27:13 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 11:01:44 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include<stdio.h>
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while(str[i])
-        i++;
-    return (i);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
 
 // int main(void)
