@@ -6,16 +6,18 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 15:11:30 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/17 14:46:28 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 17:16:55 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+// #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+// void	ft_putchar(char c)
+// {
+// 	write(1, &c, 1);
+// }
+
+void    ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {

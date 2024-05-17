@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 11:49:43 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/17 14:47:13 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 17:22:24 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_recursive_factorial(int nb)
 {
-	if (nb < 0 || nb > 2147483647)
+	if (nb < 0)
 		return (0);
 	if (nb == 0)
 		return (1);

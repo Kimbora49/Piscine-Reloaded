@@ -1,1 +1,1 @@
-find . -type f -name "*.sh" |  sed -e 's/\.sh$//'
+find . -type f -name "*.sh" |  sed -e 's/\.sh$//' | cut -c 1-2 --complement

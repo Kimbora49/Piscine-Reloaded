@@ -6,17 +6,17 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 14:17:55 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/17 14:26:04 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 17:24:59 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef POINT_H
-#define POINT_H
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
-typedef struct
+typedef struct t_point
 {
 	int	x;
 	int	y;
-}		t_point;
+}t_point;
 
 #endif

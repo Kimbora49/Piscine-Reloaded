@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 12:06:12 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/17 11:00:49 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 17:15:32 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 // {
 //     write(1, &c, 1);
 // }
+
+void    ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {

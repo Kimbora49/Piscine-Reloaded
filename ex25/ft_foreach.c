@@ -6,7 +6,7 @@
 /*   By: tmazan <tmazan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 11:23:23 by tmazan            #+#    #+#             */
-/*   Updated: 2024/05/16 11:47:22 by tmazan           ###   ########.fr       */
+/*   Updated: 2024/05/17 17:19:42 by tmazan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,16 +32,16 @@
 // 		ft_putchar(nb + '0');
 // }
 
-void ft_foreach(int *tab, int length, void (*f)(int))
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
-    int i;
-    
-    i = 0;
-    while (i < length)
-    {
-        f(tab[i]);
-        i++;
-    }
+	int	i;
+
+	i = 0;
+	while (i < length)
+	{
+		f(tab[i]);
+		i++;
+	}
 }
 
 // int main(void)
